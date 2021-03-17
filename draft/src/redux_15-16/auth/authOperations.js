@@ -43,7 +43,7 @@ const getCurrentUser = () => (dispatch, getState) => {
     }
 
     token.set(persistedToken);
-    dispatch(authActions.getCurrentUserRequest())
+    dispatch(authActions.getCurrentUserRequest());
 
     axios 
         .get('/users/current')
@@ -68,4 +68,4 @@ export default {
     logIn,
     getCurrentUser,
     logOut,
-}
+};

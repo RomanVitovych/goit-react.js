@@ -30,7 +30,7 @@ class RegisterView extends Component {
                         <input
                         type='text'
                         name='name'
-                        value={email}
+                        value={name}
                         onChange={this.handleChange} />
                     </label>
                     <label>
@@ -38,10 +38,11 @@ class RegisterView extends Component {
                         <input
                         type='email'
                         name='email'
-                        value={name}
+                        value={email}
                         onChange={this.handleChange} />
                     </label>
                     <label>
+                        Password
                         <input
                         type='password'
                         name='password'

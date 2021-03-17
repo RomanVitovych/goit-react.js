@@ -8,19 +8,19 @@ export default [
         component: lazy(() => import('./HomeView')),
     },
     {
-        path: 'register',
+        path: '/register',
         label: 'Register',
         exact: true,
         component: lazy(() => import('./RegisterView')),
     },
     {
-        path: 'login',
+        path: '/login',
         label: 'Login',
         exact: true,
         component: lazy(() => import('./LoginView')),
     },
     {
-        path: 'tasks',
+        path: '/tasks',
         label: 'Tasks',
         exact: true,
         component: lazy(() => import('./TaskerView')),
